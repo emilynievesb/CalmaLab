@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+:root {
+    --primary-color: #fffcf5; /* Blanco */
+    --secondary-color: #124e73; /* Azul */
+    --text-color: #2b4150; /* Negro azulado */
+    --background-color: #f3eee3; /* Gris */
+}
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 800
+
+.baloo-2-<uniquifier> {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+h1 {
+    font-family: 'Baloo 2', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 3.5rem;
+    /* font-weight: 2; */
+    font-style: normal;
+    color: var(--secondary-color);
+}
+
+span {
+    font-family: 'Baloo 2', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* margin-top: 20rem; */
+}
+
+button {
+    font-family: 'Baloo 2', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: 1rem 0.3rem;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#main-section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+#main-container {
+    width: 75%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: green; */
+}
+
+#text-main {
+    width: 60%;
+    padding: 8rem;
+}
+
+#image-main {
+    width: 35%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/main-section.jpg');
+}
+
+#start-button {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#know-button {
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
